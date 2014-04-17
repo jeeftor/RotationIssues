@@ -29,15 +29,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 
-    [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait animated:YES];
-
-//    objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationPortrait);
-
-
+     objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationPortrait);
 }
-
-
-
 
 
 - (void)didReceiveMemoryWarning
