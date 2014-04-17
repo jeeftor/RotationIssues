@@ -22,6 +22,9 @@
 		9F6CE3561900600D003483E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CE3351900600C003483E7 /* UIKit.framework */; };
 		9F6CE35E1900600D003483E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F6CE35C1900600D003483E7 /* InfoPlist.strings */; };
 		9F6CE3601900600D003483E7 /* RotationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CE35F1900600D003483E7 /* RotationTestTests.m */; };
+		9F6CE36F1900603F003483E7 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CE36A1900603F003483E7 /* LandscapeViewController.m */; };
+		9F6CE3701900603F003483E7 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CE36C1900603F003483E7 /* PortraitViewController.m */; };
+		9F6CE3711900603F003483E7 /* RotationControlledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CE36E1900603F003483E7 /* RotationControlledViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		9F6CE35B1900600D003483E7 /* RotationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationTestTests-Info.plist"; sourceTree = "<group>"; };
 		9F6CE35D1900600D003483E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F6CE35F1900600D003483E7 /* RotationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationTestTests.m; sourceTree = "<group>"; };
+		9F6CE3691900603F003483E7 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		9F6CE36A1900603F003483E7 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		9F6CE36B1900603F003483E7 /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		9F6CE36C1900603F003483E7 /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
+		9F6CE36D1900603F003483E7 /* RotationControlledViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationControlledViewController.h; sourceTree = "<group>"; };
+		9F6CE36E1900603F003483E7 /* RotationControlledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationControlledViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,12 @@
 		9F6CE3371900600C003483E7 /* RotationTest */ = {
 			isa = PBXGroup;
 			children = (
+				9F6CE3691900603F003483E7 /* LandscapeViewController.h */,
+				9F6CE36A1900603F003483E7 /* LandscapeViewController.m */,
+				9F6CE36B1900603F003483E7 /* PortraitViewController.h */,
+				9F6CE36C1900603F003483E7 /* PortraitViewController.m */,
+				9F6CE36D1900603F003483E7 /* RotationControlledViewController.h */,
+				9F6CE36E1900603F003483E7 /* RotationControlledViewController.m */,
 				9F6CE3401900600D003483E7 /* rotateAppDelegate.h */,
 				9F6CE3411900600D003483E7 /* rotateAppDelegate.m */,
 				9F6CE3431900600D003483E7 /* Main_iPhone.storyboard */,
@@ -254,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6CE3711900603F003483E7 /* RotationControlledViewController.m in Sources */,
 				9F6CE34B1900600D003483E7 /* rotateViewController.m in Sources */,
+				9F6CE3701900603F003483E7 /* PortraitViewController.m in Sources */,
 				9F6CE33E1900600D003483E7 /* main.m in Sources */,
+				9F6CE36F1900603F003483E7 /* LandscapeViewController.m in Sources */,
 				9F6CE3421900600D003483E7 /* rotateAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
