@@ -33,6 +33,11 @@
     NSLog(@"Issuing a rotation message (hopefully");
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Landscape Alert" message:@"This is landscape view" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+    [alert show];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

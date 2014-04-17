@@ -32,12 +32,17 @@
      objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationPortrait);
 }
 
-
+- (void)viewDidAppear:(BOOL)animated {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Portrait Alert" message:@"This is portrait view" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+    [alert show];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 -(BOOL)shouldAutorotate
 {
