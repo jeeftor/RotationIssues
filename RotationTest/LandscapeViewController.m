@@ -24,40 +24,15 @@
     return self;
 }
 
-- (void)viewDidLoad
+- (BOOL)shouldAutorotate
 {
-    [super viewDidLoad];
-
-    objc_msgSend([UIDevice currentDevice], @selector(setOrientation:), UIInterfaceOrientationLandscapeLeft);
-
-    NSLog(@"Issuing a rotation message (hopefully");
+	return YES;
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Landscape Alert" message:@"This is landscape view" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
-    [alert show];
-}
-
-- (void)didReceiveMemoryWarning
+- (NSUInteger)supportedInterfaceOrientations
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	return UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskLandscapeRight;
 }
 
--(BOOL)shouldAutorotate
-{
-    return YES;
-}
-
-
--(NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskLandscape;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-    return UIInterfaceOrientationLandscapeLeft;
-}
 
 @end

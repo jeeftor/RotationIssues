@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54236B1B1900979D00738155 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54236B1A1900979D00738155 /* CustomNavController.m */; };
 		9F6CE3321900600C003483E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CE3311900600C003483E7 /* Foundation.framework */; };
 		9F6CE3341900600C003483E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CE3331900600C003483E7 /* CoreGraphics.framework */; };
 		9F6CE3361900600C003483E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6CE3351900600C003483E7 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54236B191900979D00738155 /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
+		54236B1A1900979D00738155 /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
 		9F6CE32E1900600C003483E7 /* RotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6CE3311900600C003483E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F6CE3331900600C003483E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 		9F6CE3371900600C003483E7 /* RotationTest */ = {
 			isa = PBXGroup;
 			children = (
+				54236B191900979D00738155 /* CustomNavController.h */,
+				54236B1A1900979D00738155 /* CustomNavController.m */,
 				9F6CE3691900603F003483E7 /* LandscapeViewController.h */,
 				9F6CE36A1900603F003483E7 /* LandscapeViewController.m */,
 				9F6CE36B1900603F003483E7 /* PortraitViewController.h */,
@@ -275,6 +280,7 @@
 				9F6CE33E1900600D003483E7 /* main.m in Sources */,
 				9F6CE36F1900603F003483E7 /* LandscapeViewController.m in Sources */,
 				9F6CE3421900600D003483E7 /* rotateAppDelegate.m in Sources */,
+				54236B1B1900979D00738155 /* CustomNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +495,7 @@
 				9F6CE3651900600D003483E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6CE3661900600D003483E7 /* Build configuration list for PBXNativeTarget "RotationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				9F6CE3681900600D003483E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

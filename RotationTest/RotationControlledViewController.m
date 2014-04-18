@@ -23,44 +23,47 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
--(BOOL)shouldAutorotate
-{
-    BOOL ret =  [[self.viewControllers lastObject] shouldAutorotate];
-//    NSLog(@"--Auto Roatate Reported %d", ret);
-    return ret;
-}
-
-
-
--(NSUInteger)supportedInterfaceOrientations
-{
-    NSUInteger ret = [[self.viewControllers lastObject] supportedInterfaceOrientations];
-
+//
+//- (void)viewDidLoad
+//{
+//    [super viewDidLoad];
+//	// Do any additional setup after loading the view.
+//}
+//
+//- (void)didReceiveMemoryWarning
+//{
+//    [super didReceiveMemoryWarning];
+//    // Dispose of any resources that can be recreated.
+//}
+//
+//-(BOOL)shouldAutorotate
+//{
+//    BOOL ret  =  [[self.viewControllers lastObject] shouldAutorotate];
+//    BOOL ret1 =   [[self topViewController] shouldAutorotate];
+// 
+//    NSLog(@"--Auto Roatate Reported %d %d", ret, ret1);
+//    return ret;
+//}
+//
+//
+//
+//-(NSUInteger)supportedInterfaceOrientations
+//{
+//    NSUInteger ret = [[self.viewControllers lastObject] supportedInterfaceOrientations];
+//
 //    NSLog(@"--supportedInterfaceOrientations: %d", ret);
-
-
-    return ret;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-    UIInterfaceOrientation ret =  [[self.viewControllers lastObject] preferredInterfaceOrientationForPresentation];
-
+//
+//
+//    return ret;
+//}
+//
+//- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+//{
+//    UIInterfaceOrientation ret =  [[self.viewControllers lastObject] preferredInterfaceOrientationForPresentation];
+//
 //    NSLog(@"--preferredInterfaceOrientationForPresentation: %ld",ret);
-    return ret;
-}
+//    return ret;
+//}
 
 
 @end
